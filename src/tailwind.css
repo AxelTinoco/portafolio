@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-tictac{
+    background-image: url(/src/assets/svg/tic-tac-toe.svg);
+
+}
+
+.bg-anchors {
+    background-image: url(/src/assets/svg/pattern.svg)
+}
