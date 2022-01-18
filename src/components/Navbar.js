@@ -24,16 +24,16 @@ export const Navbar = () => {
 
 
     return (
-        <div className="col-span-12 h-10 bg-primary bg-[#14104b] w-full z-[100] md:z-50 fixed">
+        <div className="col-span-12 h-10 bg-primary bg-transparent w-full z-[100] md:z-50 fixed ">
             <div className="flex justify-between text-3xl overflow-hidden ">
-                 <div className='p-3 flex h-auto'>
+                 <div className='p-3 flex h-full relative'>
                     <p className="bg-clip-text text-transparent bg-gradient-to-r from-[#00ff87] to-[#439cfb]">Code!</p>
                 </div> 
 
 
-                <div className='w-2/3 relative h-screen md:w-1/3'>
+                <div className='w-2/3 absolute right-0 h-screen  md:w-1/3'>
                 <animated.div 
-                    className={toogle ? 'flex h-screen absolute right-0 top-0 bg-black flex-col p-3' : 'flex h-screen absolute right-0 top-0 w-full p-3 justify-center pl-14 '}
+                    className={toogle ? 'flex h-screen absolute right-0 top-0 bg-black flex-col p-3  ' : 'flex h-screen absolute right-0 top-0 p-3 justify-center pl-14 '}
                     style={
                         springWidth
                     }

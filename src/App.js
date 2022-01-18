@@ -5,9 +5,12 @@ import photo from "./assets/img/photo.jpg"
 import square from "./assets/svg/square.svg"
 import triangle from "./assets/svg/triangle.svg"
 import { Social } from "./components/Social";
+import { SectionTwo } from "./components/sections/SectionTwo";
+import { SectionWorks } from "./components/sections/SectionWorks";
+import { SectionSkills } from "./components/sections/SectionSkills";
 
-import {CgWebsite} from "react-icons/cg"
-import bloop from "./assets/svg/bloop.svg"
+
+
 
 function App() {
 
@@ -61,88 +64,13 @@ function App() {
 
       </div>
 
-      <div className="col-span-12 grid grid-cols-12 grid-rows-6 h-screen bg-[#14104b]">
-      <div className="col-span-2 col-start-2">
-            <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] w-60 h-60 flex-col rounded-3xl p-3 
-            shadow-2xl shadow-[#60efff]"
-            
-            >
-               <div className="flex  flex-row items-center h-9 space-x-6">
-                <div className="relative">
-                  <img src={bloop} alt="bloop"  className="w-12 absolute left-0 z-0 -top-3 opacity-70"/>
+      <SectionTwo />
 
-                 <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10"/>
-                </div>
-                 
-                <p className="text-white font-extrabold text-xl">Web app</p>
-               </div>
+      <SectionWorks />
 
-               <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
-            </div>
-          </div>
-        
-        <div className="col-start-4 col-span-2 row-start-2">
-        <div className="flex bg-gradient-to-tr from-[#d397fa] to-[#8364e8] w-60 h-60 flex-col rounded-3xl p-3 
-            shadow-2xl shadow-[#8364e8]"
-            
-            >
-               <div className="flex  flex-row items-center h-9 space-x-6">
-                <div className="relative">
-                  <img src={bloop} alt="bloop"  className="w-12 absolute left-0 z-0 -top-3 opacity-70"/>
+      <SectionSkills />
 
-                 <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10"/>
-                </div>
-                 
-                <p className="text-white font-extrabold text-xl">Web app</p>
-               </div>
-
-               <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
-            </div>
-        </div>
-
-
-        <div className="col-span-2 col-start-2 row-start-3 ">
-        <div className="flex bg-gradient-to-tr from-[#439cfb] to-[#8364e8] w-60 flex-col rounded-3xl p-3 
-            shadow-2xl shadow-[#439cfb]"
-            
-            >
-               <div className="flex  flex-row items-center h-9 space-x-6">
-                <div className="relative">
-                  <img src={bloop} alt="bloop"  className="w-12 absolute left-0 z-0 -top-3 opacity-70"/>
-
-                 <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10"/>
-                </div>
-                 
-                <p className="text-white font-extrabold text-xl">UX</p>
-               </div>
-
-               <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
-            </div>
-        </div>
-
-        <div className="col-span-2 col-start-4 row-start-4">
-            <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] w-60 h-60 flex-col rounded-3xl p-3 
-            shadow-2xl shadow-[#60efff]"
-            
-            >
-               <div className="flex  flex-row items-center h-9 space-x-6">
-                <div className="relative">
-                  <img src={bloop} alt="bloop"  className="w-12 absolute left-0 z-0 -top-3 opacity-70"/>
-
-                 <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10"/>
-                </div>
-                 
-                <p className="text-white font-extrabold text-xl">Web app</p>
-               </div>
-
-               <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
-            </div>
-          </div>
-
-
-
-        
-      </div>
+     
 
 
 
