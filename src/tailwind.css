@@ -14,3 +14,9 @@
 .bg-anchors {
     background-image: url(/src/assets/svg/pattern.svg)
 }
+
+.low-transition {
+
+    transition: all ease-in 500ms
+
+}

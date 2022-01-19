@@ -8,6 +8,7 @@ import { Social } from "./components/Social";
 import { SectionTwo } from "./components/sections/SectionTwo";
 import { SectionWorks } from "./components/sections/SectionWorks";
 import { SectionSkills } from "./components/sections/SectionSkills";
+import { SectionContact } from "./components/sections/SectionContact";
 
 
 
@@ -33,7 +34,8 @@ function App() {
 
           <h2 className="text-gray-400 text-3xl my-4 flex  md:my-10 md:text-5xl" >UX Designer & Frontend Developer</h2>
 
-          <button className="outline-[#1bd8b5] outline-1 outline p-2 w-1/2 rounded-xl cursor-pointer flex justify-center  md:my-8">
+          <button className="outline-[#1bd8b5] outline-1 outline p-2 w-1/2 rounded-xl cursor-pointer 
+          flex justify-center md:my-8 hover:bg-[#1bd8b5] hover:bg-opacity-20 low-transition ">
             <p className="text-[#1bd8b5]">Get mi CV</p> 
           </button>
 
@@ -70,7 +72,7 @@ function App() {
 
       <SectionSkills />
 
-     
+     <SectionContact />
 
 
 

@@ -19,7 +19,7 @@ export const SectionImgSkills = () => {
     return (
         <div className="flex md:w-1/2 my-2 h-full w-full flex-col justify-center">
            <div className='w-full flex'>
-           <div className='w-1/3 '>
+           <div className='w-1/3 items-center flex'>
                 <img src={react} alt="react" className='w-full md:h-full object-contain' />
             </div>
             <div className='w-1/3  p-2'>
@@ -35,14 +35,14 @@ export const SectionImgSkills = () => {
                 <img src={spring} alt="tailwind" className='w-full md:h-full object-contain' />
             </div>
            </div>
-            <div className='w-full flex'>
+            <div className='w-full flex items-center'>
             <div className='w-1/3 md:w-24'>
                 <img src={bootstrap} alt="bootstrap" className='w-full md:h-full object-contain' />
             </div>
             <div className='w-1/3  md:w-24'>
                 <img src={html5} alt="html5" className='w-full md:h-full object-contain' />
             </div>
-            <div className='w-1/3  md:w-20'>
+            <div className='w-[25%]  md:w-20'>
                 <img src={logocss} alt="css" className='w-full md:h-full object-contain' />
             </div>
             <div className='w-1/3  md:w-24'>
@@ -52,15 +52,32 @@ export const SectionImgSkills = () => {
             <div className='w-1/3  md:w-[20%] flex'>
                 <img src={npm} alt="css" className='w-full md:h-full object-contain' />
             </div>
-            <div className='w-1/3  md:w-[20%] p-2 flex'>
-                <img src={sass} alt="css" className='w-full md:h-full object-contain' />
+
+            <div className='hidden md:w-24  md:flex'>
+                <img src={lottie} alt="git" className='w-full md:h-full object-contain' />
             </div>
-            <div className='w-1/3  md:w-[20%] p-2 flex'>
-                <img src={lottie} alt="css" className='w-full md:h-full object-contain' />
+            <div className='hidden md:w-24  md:flex'>
+                <img src={sass} alt="git" className='w-full md:h-full object-contain' />
             </div>
-            <div className='w-1/3  md:w-[20%] p-2 flex'>
-                <img src={python} alt="css" className='w-full md:h-full object-contain' />
+            <div className='hidden md:w-24 md:flex'>
+                <img src={python} alt="git" className='w-full md:h-full object-contain' />
             </div>
+            
+
+           
+            </div>
+
+            <div className='w-1/2  flex items-center md:hidden'>
+            <div className='w-1/3  md:w-24'>
+                <img src={lottie} alt="git" className='w-full md:h-full object-contain' />
+            </div>
+            <div className='w-1/3  md:w-24'>
+                <img src={sass} alt="git" className='w-full md:h-full object-contain' />
+            </div>
+            <div className='w-1/3  md:w-24'>
+                <img src={python} alt="git" className='w-full md:h-full object-contain' />
+            </div>
+            
             </div>
          
         </div>
