@@ -1,4 +1,5 @@
 
+import { Player } from '@lottiefiles/react-lottie-player';
 import { Navbar } from "./components/Navbar";
 import { Numbers } from "./components/Numbers";
 import photo from "./assets/img/photo.jpg"
@@ -28,7 +29,23 @@ function App() {
             <p className="text-gray-400 md:text-2xl">Hello I'm</p>
           </div>
          
-          <h1 className="text-white text-6xl flex md:my-10 md:text-7xl">Christian A. Tinoco</h1>
+          <div className='flex flex-row '>
+          <div className='flex w-24 items-start h-contain md:items-center'>
+          <Player
+            style={{ width: '100%', height: '100%' }}
+            autoplay
+            loop
+            speed='1'
+            mode="normal"
+            src={'https://assets8.lottiefiles.com/packages/lf20_sdaaptwl.json'}
+
+          >
+
+          </Player>
+          </div>
+          <h1 className="text-white text-6xl flex md:my-10 md:text-7xl ">Christian A. Tinoco</h1>
+
+          </div>
 
          
 

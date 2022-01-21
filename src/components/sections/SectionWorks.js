@@ -9,10 +9,15 @@ export const SectionWorks = () => {
                 <h2 className='text-white text-2xl md:text-6xl'>My recent Projects</h2>
             </div>
 
-            <div className='col-span-12 md:col-span-4  bg-black h-96'>
-                <div className='w-full h-full flex'>
+            <div className='col-span-12 md:col-span-4  bg-black h-96 relative'>
+                <div className='w-full h-full flex absolute'>
                     <img src={foto} alt="" className='w-full h-full object-cover'/>
                 </div>
+
+                <div className='flex w-full h-24 bg-black absolute bottom-0 z-20'>
+                    <h2 className='text-white'>Journal App</h2>
+                </div>
+
             </div>
             <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0'>
                 <div className='w-full h-full flex'>

@@ -31,28 +31,28 @@ export const Numbers = () => {
     return (
         <div className="flex flex-row w-full items-center space-x-2 mt-9 ">
             <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-xl md:text-5xl">
+                <animated.span className="text-[#1bd8b5] text-3xl md:text-6xl">
                   {number.to(n => n.toFixed(0))}
                 </animated.span>
-                <div className='text-gray-400'>
+                <div className='text-gray-400 text-xl md:text-3xl '>
                   <h2>Happy time</h2>
                 </div>
               </div>
 
               <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-xl md:text-5xl">
+                <animated.span className="text-[#1bd8b5] text-3xl md:text-6xl">
                   {numbertwo.to(n => n.toFixed(0))}
                 </animated.span>
-                <div className='text-gray-400'>
+                <div className='text-gray-400 text-xl md:text-3xl'>
                   <h2>Years of Experience</h2>
                 </div>
               </div>
 
               <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-xl md:text-5xl">
+                <animated.span className="text-[#1bd8b5] text-3xl md:text-6xl">
                   {numberthree.to(n => n.toFixed(0))}
                 </animated.span>
-                <div className='text-gray-400'>
+                <div className='text-gray-400 text-xl md:text-3xl'>
                   <h2>Projects Completed</h2>
                 </div>
               </div>

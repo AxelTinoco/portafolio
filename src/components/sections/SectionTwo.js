@@ -38,10 +38,10 @@ export const SectionTwo = () => {
               <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10" />
             </div>
 
-            <p className="text-white font-extrabold text-xl">Web app</p>
+            <p className="text-white font-extrabold text-xl">Mobile First</p>
           </div>
 
-          <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
+          <p className="text-white">Responsive design with the pattern "mobile first" and build CSS especially for this.</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ export const SectionTwo = () => {
             <p className="text-white font-extrabold text-xl">UX</p>
           </div>
 
-          <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
+          <p className="text-white">Keep the heuristics and field of user experience research with your feedback.</p>
         </div>
       </div>
 
@@ -77,15 +77,15 @@ export const SectionTwo = () => {
               <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10" />
             </div>
 
-            <p className="text-white font-extrabold text-xl">Web app</p>
+            <p className="text-white font-extrabold text-xl">Patterns</p>
           </div>
 
-          <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
+          <p className="text-white">Look for design patterns to use it better and look for new tools</p>
         </div>
       </div>
 
 
-      <div className="col-span-12 flex p-3 md:col-start-7 flex-col md:col-end-12 relative">
+      <div className="col-span-12 flex p-3 md:col-start-7 flex-col md:col-end-12">
 
         <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span> What I Do?</h3>
 
@@ -97,14 +97,20 @@ export const SectionTwo = () => {
           
         </div>
 
-        <div className='flex h-3/6 absolute top-16 left-10 md:left-0'>
+
+       <div className='flex flex-row-reverse relative md:p-6 md:flex-col'>
+       <div className="flex  h-auto  flex-col  w-1/2  self-center  z-10 md:w-full">
+          <p className="text-gray-400 text-lg md:text-3xl ">Showcase innovative designs and leading user experience</p>
+        </div>
+
+        <div className='flex w-2/4 p-2 md:w-full md:justify-center'>
           <Player
             style={{ width: '100%', height: '100%' }}
             autoplay
             loop
             speed='1'
             mode="normal"
-            src={'https://assets4.lottiefiles.com/packages/lf20_sdaaptwl.json'}
+            src={'https://assets7.lottiefiles.com/packages/lf20_0k0q6wmw.json'}
 
           >
 
@@ -114,6 +120,7 @@ export const SectionTwo = () => {
 
         </div>
 
+       </div>
 
       </div>
 
