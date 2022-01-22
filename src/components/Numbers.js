@@ -4,13 +4,7 @@ export const Numbers = () => {
 
 
 
-  const { number } = useSpring({
-    from: { number: 89 },
-    to: { number: 10 },
-    delay: 1000,
-    config: { duration: 2000 },
-  }
-  );
+
 
   const { numbertwo } = useSpring({
     from: { numbertwo: 20 },
@@ -29,15 +23,8 @@ export const Numbers = () => {
   );
 
     return (
-        <div className="flex flex-row w-full items-center space-x-2 mt-9 ">
-            <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-3xl md:text-6xl">
-                  {number.to(n => n.toFixed(0))}
-                </animated.span>
-                <div className='text-gray-400 text-xl md:text-3xl '>
-                  <h2>Happy time</h2>
-                </div>
-              </div>
+        <div className="flex sm:flex-row w-full items-center justify-around sm:space-x-2 md:mt-9  ">
+        
 
               <div className='flex'>
                 <animated.span className="text-[#1bd8b5] text-3xl md:text-6xl">
