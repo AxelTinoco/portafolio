@@ -1,9 +1,26 @@
 import line from '../../assets/svg/line.svg'
+import journal from '../../assets/img/journal.png'
+import weather from '../../assets/img/weather.png'
+import todo from '../../assets/img/todo.png'
+import github from '../../assets/img/github-api.png'
 import foto from '../../assets/img/foto.jpg'
 import { AnimatedDiv } from '../AnimatedDiv';
 
 export const SectionWorks = () => {
 
+
+    
+    const descriptionObj = [{
+        title : "Journal App",
+        desc : "In this app use auth with google api ,firestore and firebase , use redux for this states of authentication "
+            },
+
+        {
+            title: "ToDo App",
+            desc: "The app use the hook use context and local storage for "
+        }
+
+    ]
  
     return (
         <div className="col-span-12 p-3 grid grid-cols-12 h-full gap-3 mt-6">
@@ -14,38 +31,38 @@ export const SectionWorks = () => {
 
             <div className='col-span-12 md:col-span-4  bg-black h-96 relative'>
                 <div className='w-full h-full flex absolute'>
-                    <img src={foto} alt="" className='w-full h-full object-cover'/>
+                    <img src={journal} alt="" className='w-full h-full object-cover'/>
                 </div>
 
-               <AnimatedDiv id={1}/>
+               <AnimatedDiv id={1} title={descriptionObj[0].title} description={descriptionObj[0].desc}/>
 
             </div>
             <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
                 <div className='w-full h-full flex'>
-                    <img src={foto} alt="" className='w-full h-full object-cover'/>
+                    <img src={todo} alt="" className='w-full h-full object-cover'/>
                 </div>
 
-                <AnimatedDiv id={2}/>
+                <AnimatedDiv id={2} title={"ToDo App"}/>
             </div>
+            <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
+                <div className='w-full h-full flex'>
+                    <img src={weather} alt="" className='w-full h-full object-cover'/>
+                </div>
+                <AnimatedDiv id={3} title={"Weather App"}/>
+            </div>
+            <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
+                <div className='w-full h-full flex'>
+                    <img src={github} alt="" className='w-full h-full object-cover '/>
+                </div>
+
+                <AnimatedDiv id={4} title={"GitHub App"}/>
+            </div>
+
             <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
                 <div className='w-full h-full flex'>
                     <img src={foto} alt="" className='w-full h-full object-cover'/>
                 </div>
-                <AnimatedDiv id={3} />
-            </div>
-            <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
-                <div className='w-full h-full flex'>
-                    <img src={foto} alt="" className='w-full h-full object-cover'/>
-                </div>
-
-                <AnimatedDiv id={4}/>
-            </div>
-
-            <div className='col-span-12 md:col-span-4 bg-black h-96 my-4 md:m-0 relative'>
-                <div className='w-full h-full flex'>
-                    <img src={foto} alt="" className='w-full h-full object-cover'/>
-                </div>
-                <AnimatedDiv id={5}/>
+                <AnimatedDiv id={5} title={"Hero App"}/>
             </div>
         </div>
 

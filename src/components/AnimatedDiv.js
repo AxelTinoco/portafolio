@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import  {useSpring,animated,config} from 'react-spring'
+import {IoIosArrowUp, IoIosArrowDown} from 'react-icons/io'
 
-export const AnimatedDiv = ({id}) => {
+export const AnimatedDiv = ({id,title,description}) => {
 
     const [mouse, setMouse] = useState(false);
 
 
     const springHeight = useSpring({
-        from :{ height: "20%"},
-        to: {height :"50%" },
+        from :{ height: "10%"},
+        to: {height :"30%" },
         config:(config.wobbly),
         reverse: !mouse
     })
@@ -27,7 +28,7 @@ export const AnimatedDiv = ({id}) => {
   return (  
   
   <animated.div 
-    className='flex w-full h-24 bg-black absolute bottom-0 z-[40]'
+    className='flex w-full h-24 bg-black absolute bottom-0 z-[40] flex-col'
     style={springHeight}
     // ref = {boxRef}
     id = {id}
@@ -35,6 +36,27 @@ export const AnimatedDiv = ({id}) => {
     onMouseLeave = {(id,e) => mouseLeave(id,e)}
     >
     
-    <h2 className='text-white'>Journal App</h2>
+   <div className='flex p-2'>
+   <div className='flex w-1/2'>
+    <h2 className='text-white'>{title}</h2>
+    </div>
+
+    <div className='flex w-1/2 h-auto justify-end'>
+        {!mouse ? <IoIosArrowUp className="flex animate-bounce text-white text-3xl transition-all" /> : <IoIosArrowDown className="flex animate-bounce text-white text-3xl transition-all" /> }
+    </div>
+
+   </div>
+    {
+        mouse 
+        ? 
+        <div className='flex w-full p-2 text-white'>
+        <p>{description}</p>
+        </div>
+        :
+        <div className='hidden'>
+
+        </div>
+    }
+    
 </animated.div>)
 };
