@@ -33,7 +33,7 @@ export const Navbar = () => {
 
                 <div className='w-2/3 absolute right-0 h-auto  md:w-1/3 '>
                 <animated.div 
-                    className={toogle ? 'flex h-screen absolute right-0 top-0 bg-black flex-col p-3  ' : 'flex h-screen absolute right-0 top-0 p-3 justify-center pl-14 '}
+                    className={toogle ? 'flex h-screen absolute right-0 top-0 bg-black flex-col p-3  ' : 'flex h-contain absolute right-0 top-0 p-3 justify-center pl-14 '}
                     style={
                         springWidth
                     }

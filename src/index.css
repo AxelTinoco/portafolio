@@ -554,6 +554,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 2 / span 2;
 }
 
+.col-span-11 {
+  grid-column: span 11 / span 11;
+}
+
 .col-start-2 {
   grid-column-start: 2;
 }
@@ -629,6 +633,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-table {
+  display: inline-table;
+}
+
 .grid {
   display: grid;
 }
@@ -693,6 +705,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 24rem;
 }
 
+.h-1\/6 {
+  height: 16.666667%;
+}
+
+.h-3\/6 {
+  height: 50%;
+}
+
+.h-4\/6 {
+  height: 66.666667%;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -717,6 +749,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -739,6 +775,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-2\/4 {
   width: 50%;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[225\] {
+  width: 225;
+}
+
+.w-\[25\] {
+  width: 25;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .rotate-45 {
@@ -891,6 +959,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.75rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -913,9 +985,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -987,12 +1059,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.25rem;
 }
 
-.p-7 {
-  padding: 1.75rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
 }
 
 .pl-14 {
@@ -1053,6 +1125,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#1bd8b5\] {
   --tw-text-opacity: 1;
   color: rgb(27 216 181 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-transparent {
@@ -1265,6 +1342,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
   }
 
   .md\:grid-rows-5 {
