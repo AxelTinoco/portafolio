@@ -19,18 +19,22 @@ export const SectionContact = () => {
 
                     <div className='flex items-center space-x-3 p-2'>
                         <BsWhatsapp className='text-white text-3xl' />
-                        <p className='text-white'>55-38-28-43-48</p>
+                        <a href="https://api.whatsapp.com/send?phone=5538284348" target="_blank" className='text-white'>55-38-28-43-48</a>
                     </div>
 
                    
                         <div className='flex space-x-3 items-center p-2'>
                         <ImLinkedin className='text-white text-3xl cursor-pointer' />
-                        <p className='text-white'>/in/axeltinoco</p>
+                        <a href="https://www.linkedin.com/in/axeltinoco/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className='text-white'>/in/axeltinoco</a>
                         </div>
 
                         <div className='flex space-x-3 items-center p-2'>
                             <FiMail className='text-white text-3xl' />
-                            <p className='text-white'>axeltm8@gmail.com</p>
+                            <a href="mailto:axeltm8@gmail.com" className='text-white'>axeltm8@gmail.com</a>
+
                         </div>
 
                
