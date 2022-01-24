@@ -47,7 +47,7 @@ export const SectionWorks = () => {
                 <h2 className='text-white text-2xl md:text-6xl'>My recent Projects</h2>
             </div>
 
-            <div className='col-span-11 md:col-span-4  bg-black h-96 relative'>
+            <div className='col-span-12 md:col-span-4  bg-black h-96 relative'>
                 <div className='w-full h-full flex absolute'>
                     <img src={journal} alt="" className='w-full h-full object-cover'/>
                 </div>
