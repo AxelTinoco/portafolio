@@ -4,7 +4,7 @@ import { AiOutlineHome, AiOutlineProject } from "react-icons/ai"
 import { RiContactsLine } from 'react-icons/ri'
 import { useSpring, animated, config } from 'react-spring'
 import { Player } from '@lottiefiles/react-lottie-player';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 
