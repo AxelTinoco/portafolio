@@ -8,7 +8,7 @@ export const SectionTwo = () => {
   return (
     <div className="col-span-12 my-9 mb-9 h-screen bg-[#14104b] grid grid-cols-12 grid-rows-5">
       
-      <div className="col-span-11 col-start-2 md:col-span-2">
+      <div className="col-span-11 col-start-2 md:col-span-2 md:col-start-2">
         <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] w-60 h-60 flex-col rounded-3xl p-3 
               shadow-2xl shadow-[#60efff] my-4"
 
@@ -47,7 +47,7 @@ export const SectionTwo = () => {
       </div>
 
 
-      <div className="md:col-span-2 col-start-2 row-start-3 col-span-8">
+      <div className="md:col-span-2 col-start-2 row-start-3 col-span-8 md:col-start-2">
         <div className="flex bg-gradient-to-tr from-[#439cfb] to-[#8364e8] w-60 flex-col rounded-3xl p-3 
               shadow-2xl shadow-[#439cfb] h-full"
 
