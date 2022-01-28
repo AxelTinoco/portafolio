@@ -88,7 +88,7 @@ function App() {
 
       <SectionTwo />
 
-      <div className='col-span-12' id='works'>
+      <div className='col-span-12 mt-20' id='works'>
         <SectionWorks />
 
       </div>

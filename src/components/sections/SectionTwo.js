@@ -6,13 +6,14 @@ import { CgWebsite } from "react-icons/cg"
 
 export const SectionTwo = () => {
   return (
-    <div className="col-span-12 grid grid-cols-12 md:grid-rows-5 grid-rows-6 my-9 h-screen bg-[#14104b]">
-      <div className="col-span-2 col-start-2">
+    <div className="col-span-12 my-9 mb-9 h-screen bg-[#14104b] grid grid-cols-12 grid-rows-5">
+      
+      <div className="col-span-11 col-start-2 md:col-span-2">
         <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] w-60 h-60 flex-col rounded-3xl p-3 
-              shadow-2xl shadow-[#60efff]"
+              shadow-2xl shadow-[#60efff] my-4"
 
         >
-          <div className="flex  flex-row items-center h-9 space-x-6">
+          <div className="flex flex-row items-center h-9 space-x-6">
             <div className="relative">
               <img src={bloop} alt="bloop" className="w-12 absolute left-0 z-0 -top-3 opacity-70" />
 
@@ -26,12 +27,12 @@ export const SectionTwo = () => {
         </div>
       </div>
 
-      <div className="md:col-start-4 md:col-span-2 row-start-2 col-start-3">
-        <div className="flex bg-gradient-to-tr from-[#d397fa] to-[#8364e8] w-60 h-48 md:h-60  flex-col rounded-3xl p-3 
+      <div className="md:col-start-4 md:col-span-2 md:row-start-2 col-start-3 col-span-9">
+        <div className="flex bg-gradient-to-tr from-[#d397fa] to-[#8364e8] md:w-60 h-48 md:h-60  flex-col rounded-3xl p-3 
               shadow-2xl shadow-[#8364e8]"
 
         >
-          <div className="flex  flex-row items-center h-9 space-x-6">
+          <div className="flex  flex-row items-center h-9 space-x-6 w-full">
             <div className="relative">
               <img src={bloop} alt="bloop" className="w-12 absolute left-0 z-0 -top-3 opacity-70" />
 
@@ -46,9 +47,9 @@ export const SectionTwo = () => {
       </div>
 
 
-      <div className="col-span-2 col-start-2 row-start-3 ">
+      <div className="md:col-span-2 col-start-2 row-start-3 col-span-8">
         <div className="flex bg-gradient-to-tr from-[#439cfb] to-[#8364e8] w-60 flex-col rounded-3xl p-3 
-              shadow-2xl shadow-[#439cfb]"
+              shadow-2xl shadow-[#439cfb] h-full"
 
         >
           <div className="flex  flex-row items-center h-9 space-x-6">
@@ -65,8 +66,8 @@ export const SectionTwo = () => {
         </div>
       </div>
 
-      <div className="col-span-2 md:col-start-4 row-start-4 col-start-3">
-        <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] w-60 md:h-52  flex-col rounded-3xl p-3 
+      <div className="md:col-span-2 md:col-start-4 row-start-4 col-start-3 col-span-9">
+        <div className="flex bg-gradient-to-tr from-[#210cae] to-[#60efff] md:w-60 md:h-52  flex-col rounded-3xl p-3 
               shadow-2xl shadow-[#60efff]"
 
         >
@@ -85,7 +86,7 @@ export const SectionTwo = () => {
       </div>
 
 
-      <div className="col-span-12 flex p-3 md:col-start-7 flex-col md:col-end-12 my-3">
+      <div className="col-span-12 flex p-3 md:col-start-7 flex-col md:col-end-12 mt-3">
 
         <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Qué hago?</h3>
 
@@ -123,6 +124,8 @@ export const SectionTwo = () => {
        </div>
 
       </div>
+
+    
 
     </div>
   )

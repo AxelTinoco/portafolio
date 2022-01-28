@@ -13,7 +13,7 @@ export const SectionWorks = () => {
     const desc = [
         {
         title : "Journal App",
-        desc : "En esta aplicación, use auth con google api, firestore y firebase, use redux para estos estados de autenticación",
+        desc : "En esta aplicación, use auth con Google api, firestore y firebase.",
         link : 'https://journal-app-drab.vercel.app/auth/login'
         },
 
