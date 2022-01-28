@@ -22,7 +22,7 @@ export const SectionTwo = () => {
             <p className="text-white font-extrabold text-xl">Web app</p>
           </div>
 
-          <p className="text-white">Use a new tecnologies and more performance with resolution problems </p>
+          <p className="text-white">El uso de nuevas tecnologías para la resolución de problemas en aplicaciones web</p>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ export const SectionTwo = () => {
             <p className="text-white font-extrabold text-xl">Mobile First</p>
           </div>
 
-          <p className="text-white">Responsive design with the pattern "mobile first" and build CSS especially for this.</p>
+          <p className="text-white">Uso de la estrategia de "mobile first" para tener una agradable interfaz de diseño a la nueva generación.</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ export const SectionTwo = () => {
             <p className="text-white font-extrabold text-xl">UX</p>
           </div>
 
-          <p className="text-white">Keep the heuristics and field of user experience research with your feedback.</p>
+          <p className="text-white">Estudio de heuristicas y el mejor manejo de experiencia.</p>
         </div>
       </div>
 
@@ -77,22 +77,22 @@ export const SectionTwo = () => {
               <CgWebsite className="text-[#1bd8b5] text-3xl ml-5 relative z-10" />
             </div>
 
-            <p className="text-white font-extrabold text-xl">Patterns</p>
+            <p className="text-white font-extrabold text-xl">Patrones</p>
           </div>
 
-          <p className="text-white">Look for design patterns to use it better and look for new tools</p>
+          <p className="text-white">Estudio de diseño de patrones para resolución persistentes en el desarrollo web</p>
         </div>
       </div>
 
 
       <div className="col-span-12 flex p-3 md:col-start-7 flex-col md:col-end-12 my-3">
 
-        <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span> What I Do?</h3>
+        <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Qué hago?</h3>
 
         <div className="p-3 flex self-end h-auto md:w-[95%] w-full  flex-col">
-          <h2 className="text-white text-2xl md:text-6xl ">Better Designs</h2>
+          <h2 className="text-white text-2xl md:text-6xl ">Mejor Diseño</h2>
           
-          <h2 className="text-white text-2xl md:text-6xl ">Better Experience</h2>
+          <h2 className="text-white text-2xl md:text-6xl ">Mejor Experiencia </h2>
 
           
         </div>
@@ -100,7 +100,7 @@ export const SectionTwo = () => {
 
        <div className='flex flex-row-reverse relative md:p-6 md:flex-col'>
        <div className="flex  h-auto  flex-col  w-1/2  self-center  z-10 md:w-full">
-          <p className="text-gray-400 text-lg md:text-3xl ">Showcase innovative designs and leading user experience</p>
+          <p className="text-gray-400 text-lg md:text-3xl ">Muestra diseños innovadores y experiencia de usuario únicos </p>
         </div>
 
         <div className='flex w-2/4 p-2 md:w-full md:justify-center'>

@@ -16,7 +16,7 @@ export const Numbers = () => {
 
   const { numberthree } = useSpring({
     from: { numberthree: 54 },
-    to: { numberthree: 30 },
+    to: { numberthree: 15 },
     delay: 1000,
     config: { duration: 2000 },
   }
@@ -31,7 +31,7 @@ export const Numbers = () => {
                   {numbertwo.to(n => n.toFixed(0))}
                 </animated.span>
                 <div className='text-gray-400 text-xl md:text-3xl'>
-                  <h2>Years of Experience</h2>
+                  <h2>Años de Experiencia</h2>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ export const Numbers = () => {
                   {numberthree.to(n => n.toFixed(0))}
                 </animated.span>
                 <div className='text-gray-400 text-xl md:text-3xl'>
-                  <h2>Projects Completed</h2>
+                  <h2>Proyectos Completados</h2>
                 </div>
               </div>
         </div>

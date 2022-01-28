@@ -26,7 +26,7 @@ function App() {
       <div className='col-span-12 p-3 flex flex-col h-screen md:flex-row leading-9 ' id="home">
         <div className="flex w-full md:w-1/2 flex-col h-[50%] md:h-full relative z-50  ">
           <div className="mt-10">
-            <p className="text-gray-400 md:text-2xl">Hello I'm</p>
+            <p className="text-gray-400 md:text-2xl">Hola Soy</p>
           </div>
 
           <div className='flex flex-row '>
@@ -51,10 +51,12 @@ function App() {
 
           <h2 className="text-gray-400 text-3xl flex  md:my-10 md:text-5xl my-1 " >UX Designer & Frontend Developer</h2>
 
+          <a href="https://drive.google.com/file/d/1tE15Dq2cxpfcKaPNYqTlthYCUJJfsCR6/view?usp=sharing" target="_blank" >
           <button className="outline-[#1bd8b5] outline-1 outline p-1 md:p-2 my-2 w-1/2 rounded-xl cursor-pointer 
           flex justify-center md:my-8 hover:bg-[#1bd8b5] hover:bg-opacity-20 low-transition ">
-            <p className="text-[#1bd8b5]">Get mi CV</p>
+              <p className="text-[#1bd8b5]">Obtén mi CV</p>
           </button>
+          </a>
 
           <Numbers />
 

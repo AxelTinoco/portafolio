@@ -13,28 +13,28 @@ export const SectionWorks = () => {
     const desc = [
         {
         title : "Journal App",
-        desc : "In this app use auth with google api ,firestore and firebase , use redux for this states of authentication ",
+        desc : "En esta aplicación, use auth con google api, firestore y firebase, use redux para estos estados de autenticación",
         link : 'https://journal-app-drab.vercel.app/auth/login'
         },
 
         {
             title: "ToDo App",
-            desc: "With this app, use the hook use context and local storage for persistence.",
-            link: ''
+            desc: "Con esta aplicación, use el hook de context con reducers y el local storage para la persistencia.",
+            link: 'https://axeltinoco.github.io/todo-react/'
         },
         {
             title: "Wheather App",
-            desc: "In this web app, the weather api is used to bring the information and display it.",
+            desc: "En esta aplicación web, la API meteorológica se utiliza para traer la información y mostrarla.",
             link: 'https://weather-app-red-mu.vercel.app/'
         },
         {
             title: "Github App",
-            desc: "GitHub user data is better displayed with its own Api.",
+            desc: "Se utilizo la API de GitHub para mostrar información de los perfiles que quiera buscar.",
             link: 'https://github-react-app.vercel.app/'
         },
         {
             title: "Hero App",
-            desc: "In this SPA is used for global state, private routes to display heroes and more.",
+            desc: "En esta SPA se utilizo useContext y reducers para mostrar algunos heroes con protección de rutas.",
             link: 'https://hero-app-ochre.vercel.app/'
         }
 
@@ -43,8 +43,8 @@ export const SectionWorks = () => {
     return (
         <div className="col-span-12 p-3 grid grid-cols-12 h-full gap-3 mt-6">
             <div className='col-span-12  p-2 h-32 flex flex-col  gap-2'>
-                <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>My Works</h3>
-                <h2 className='text-white text-2xl md:text-6xl'>My recent Projects</h2>
+                <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Mis trabajos</h3>
+                <h2 className='text-white text-2xl md:text-6xl'>Mis proyectos recientes</h2>
             </div>
 
             <div className='col-span-12 md:col-span-4  bg-black h-96 relative'>

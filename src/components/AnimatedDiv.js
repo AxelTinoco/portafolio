@@ -53,7 +53,7 @@ export const AnimatedDiv = ({ id, title, description, link}) => {
                         <p className='text-white inline-flex w-9/12'>{description}</p>
 
                         <button className="bg-white rounded-2xl text-black w-[25%] h-12">
-                           <a href={link}>Visit</a> 
+                           <a href={link}>Visita</a> 
                         </button>
                     </div>
                     :

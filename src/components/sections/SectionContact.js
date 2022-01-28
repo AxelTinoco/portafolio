@@ -10,9 +10,9 @@ export const SectionContact = () => {
         <div className="col-span-12 h-contain md:h-[70vh] flex flex-col md:flex-row-reverse">
             <div className='md:w-1/2 flex h-full flex-col w-full'>
                 <div className='w-full p-3 md:space-y-4'>
-                    <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Contact Me!</h3>
-                    <h2 className='text-white text-2xl md:text-6xl'>Drop Me A Message</h2>
-                    <p className='text-gray-400 md:text-2xl'>Let's have more projects together, more solutions and dreams to fulfill</p>
+                    <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Contácteme!</h3>
+                    <h2 className='text-white text-2xl md:text-6xl'>Manda un mensaje</h2>
+                    <p className='text-gray-400 md:text-2xl'>Tengamos más proyectos juntos, más soluciones y sueños por cumplir</p>
                 </div>
 
                 <div className='w-full p-3 flex md:space-x-3 flex-row md:h-1/2 mt-6 items-start flex-wrap h-full'>
