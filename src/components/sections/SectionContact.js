@@ -7,7 +7,7 @@ import line from '../../assets/svg/line.svg'
 
 export const SectionContact = () => {
     return (
-        <div className="col-span-12 h-contain md:h-[70vh] flex flex-col md:flex-row-reverse">
+        <div className="col-span-12 h-contain md:h-[70vh] flex flex-col md:flex-row-reverse min-h-[750px]">
             <div className='md:w-1/2 flex h-full flex-col w-full'>
                 <div className='w-full p-3 md:space-y-4'>
                     <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Contácteme!</h3>

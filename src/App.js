@@ -23,14 +23,14 @@ function App() {
     <div className="grid grid-cols-12 relative bg-[#14104b] w-screen">
 
       <Navbar />
-      <div className='col-span-12 p-3 flex flex-col h-screen md:flex-row leading-9 ' id="home">
-        <div className="flex w-full md:w-1/2 flex-col h-[50%] md:h-full relative z-50  ">
+      <div className='col-span-12 p-3 flex flex-col md:h-screen md:flex-row leading-10 w-full min-h-[900px]' id="home">
+        <div className="flex w-full md:w-1/2 flex-col h-[50%] md:h-full relative z-50  lg:space-y-6">
           <div className="mt-10">
             <p className="text-gray-400 md:text-2xl">Hola Soy</p>
           </div>
 
           <div className='flex flex-row '>
-            <div className='flex w-24 items-start h-contain md:items-center'>
+            <div className='flex w-24 items-start h-contain md:items-center '>
               <Player
                 style={{ width: '100%', height: '100%' }}
                 autoplay
@@ -43,29 +43,29 @@ function App() {
 
               </Player>
             </div>
-            <h1 className="text-white text-5xl sm:text-6xl flex md:my-10 md:text-7xl ">Christian A. Tinoco</h1>
+            <h1 className="text-white text-3xl sm:text-6xl flex md:my-2 lg:text-7xl lg:my-6">Christian A. Tinoco</h1>
 
           </div>
 
 
 
-          <h2 className="text-gray-400 text-3xl flex  md:my-10 md:text-5xl my-1 " >UX Designer & Frontend Developer</h2>
+          <h2 className="text-gray-400 text-2xl flex  md:my-2 md:text-5xl my-1 " >UX Designer & Frontend Developer</h2>
 
-          <a href="https://drive.google.com/file/d/1tE15Dq2cxpfcKaPNYqTlthYCUJJfsCR6/view?usp=sharing" >
+          <a href="https://drive.google.com/file/d/1tE15Dq2cxpfcKaPNYqTlthYCUJJfsCR6/view?usp=sharing"  className=''>
           <button className="outline-[#1bd8b5] outline-1 outline p-1 md:p-2 my-2 w-1/2 rounded-xl cursor-pointer 
-          flex justify-center md:my-8 hover:bg-[#1bd8b5] hover:bg-opacity-20 low-transition ">
+          flex justify-center  hover:bg-[#1bd8b5] hover:bg-opacity-20 low-transition ">
               <p className="text-[#1bd8b5]">Obtén mi CV</p>
           </button>
           </a>
 
           <Numbers />
 
-          <Social />
+          <Social/>
         </div>
 
-        <div className="flex w-full md:w-1/2 justify-center h-full  items-end relative md:items-center">
+        <div className="flex w-full md:w-1/2 justify-center h-full relative items-center my-2">
 
-          <div className="w-[80%] md:w-[60%] relative">
+          <div className="w-[80%] sm:w-3/5 md:w-[60%] relative">
             <img src={photo} className="w-full rounded-tr-[2rem] rounded-bl-[2rem] shadow-2xl z-10 relative" alt="Axel Tinoco" />
             <div className="bg-tictac absolute bg-repeat h-28 w-28 -left-[10%] -top-[10%] opacity-25 z-0">
             </div>
@@ -85,10 +85,12 @@ function App() {
 
       </div>
 
+      <div className='col-span-12'>
+       <SectionTwo />
 
-      <SectionTwo />
+      </div>
 
-      <div className='col-span-12 mt-20' id='works'>
+      <div className='col-span-12' id='works'>
         <SectionWorks />
 
       </div>

@@ -9,7 +9,7 @@ export const AnimatedDiv = ({ id, title, description, link}) => {
 
     const springHeight = useSpring({
         from: { height: "10%" },
-        to: { height: "35%" },
+        to: { height: "45%" },
         config: (config.wobbly),
         reverse: !mouse
     })

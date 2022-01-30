@@ -4,7 +4,7 @@ import { SectionImgSkills } from './SectionImgSkills'
 
 export const SectionSkills = () => {
     return (
-        <div className='col-span-12 flex md:h-screen h-contain text-left flex-col p-3 md:flex-row'>
+        <div className='col-span-12 flex md:h-screen h-contain text-left flex-col p-3 md:flex-row min-h-[700px]'>
         
           <div className='md:w-1/2 w-full flex flex-col h-full justify-center'>
           <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Mis habilidades</h3>

@@ -49,9 +49,9 @@ export const Navbar = () => {
                         {
                             (toogle)
                                 ?
-                                <div className='flex mt-10  w-full md:pt-7 h-full flex-col'>
-                                    <li className='text-white list-none space-y-4 w-full flex flex-col '>
-                                        <ul className=" w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition ">
+                                <div className='flex mt-10 w-full md:pt-7 h-full flex-col '>
+                                    <li className='text-white list-none space-y-4 w-full flex flex-col text-base lg:text-2xl'>
+                                        <ul className=" lg:w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition ">
                                             <Link
                                                 activeClass="active"
                                                 className="flex items-center"
@@ -62,7 +62,7 @@ export const Navbar = () => {
                                             >
                                                 <AiOutlineHome className="flex mr-2" />Inicio</Link>
                                         </ul>
-                                        <ul className="w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition">
+                                        <ul className="lg:w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition">
                                             <Link
                                                 activeClass="active"
                                                 className="flex items-center"
@@ -74,7 +74,7 @@ export const Navbar = () => {
                                                 <AiOutlineProject className="flex mr-2" />Proyectos</Link>
 
                                         </ul>
-                                        <ul className="w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition">
+                                        <ul className="lg:w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition">
                                             <Link
                                                 activeClass="active"
                                                 className="flex items-center"
