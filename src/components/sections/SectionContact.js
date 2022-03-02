@@ -11,7 +11,7 @@ export const SectionContact = () => {
             <div className='md:w-1/2 flex h-full flex-col w-full'>
                 <div className='w-full p-3 md:space-y-4'>
                     <h3 className="text-gray-400 flex mt-5"><span><img src={line} alt="line" className="mx-3" /></span>Contácteme!</h3>
-                    <h2 className='text-white text-2xl md:text-6xl'>Manda un mensaje</h2>
+                    <h2 className='text-white text-2xl md:text-6xl my-4'>Manda un mensaje</h2>
                     <p className='text-gray-400 md:text-2xl'>Tengamos más proyectos juntos, más soluciones y sueños por cumplir</p>
                 </div>
 

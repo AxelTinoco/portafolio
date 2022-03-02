@@ -35,7 +35,7 @@ export const SectionTwo = () => {
 
       
         <div className="flex bg-gradient-to-tr from-[#d397fa] to-[#8364e8] flex-col rounded-3xl p-3 
-              shadow-2xl shadow-[#8364e8] min-h-[250px] mb-4 lg:w-60 lg:col-start-6 lg:row-start-2 "
+              shadow-2xl shadow-[#8364e8] min-h-[130px] lg:min-h-[250px] mb-4 lg:w-60 lg:col-start-6 lg:row-start-2 "
               
               >
           <div className="flex  flex-row items-center h-9 space-x-6 w-full">
@@ -92,7 +92,7 @@ export const SectionTwo = () => {
   
       </div>
 
-      <div className='flex lg:w-1/2 flex-col'>
+      <div className='flex lg:w-1/2 flex-col my-6'>
 
       <div className="flex flex-col">
 

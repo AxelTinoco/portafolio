@@ -50,7 +50,7 @@ export const Navbar = () => {
                             (toogle)
                                 ?
                                 <div className='flex mt-10 w-full md:pt-7 h-full flex-col '>
-                                    <li className='text-white list-none space-y-4 w-full flex flex-col text-base lg:text-2xl'>
+                                    <li className='text-white list-none space-y-4 w-full flex flex-col leading-10 lg:text-2xl'>
                                         <ul className=" lg:w-2/3 cursor-pointer hover:bg-[#1bd8b5] rounded low-transition ">
                                             <Link
                                                 activeClass="active"

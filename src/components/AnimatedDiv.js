@@ -15,8 +15,6 @@ export const AnimatedDiv = ({ id, title, description, link}) => {
     })
 
     const mouseEvent = (e, id) => {
-
-
         setMouse(true)
     }
 
@@ -49,8 +47,8 @@ export const AnimatedDiv = ({ id, title, description, link}) => {
             {
                 mouse
                     ?
-                    <div className='flex w-full p-2  transition-all relative'>
-                        <p className='text-white inline-flex w-9/12'>{description}</p>
+                    <div className='flex w-full p-2  transition-all relative justify-around'>
+                        <p className='text-white inline-flex  w-[70%]'>{description}</p>
 
                         <button className="bg-white rounded-2xl text-black w-[25%] h-12">
                            <a href={link}>Visita</a> 

@@ -24,7 +24,7 @@ function App() {
 
       <Navbar />
       <div className='col-span-12 p-3 flex flex-col md:h-screen md:flex-row leading-10 w-full min-h-[900px]' id="home">
-        <div className="flex w-full md:w-1/2 flex-col h-[50%] md:h-full relative z-50  lg:space-y-6">
+        <div className="flex w-full md:w-1/2 flex-col h-[50%] md:h-full relative z-50 space-y-3 md:space-y-8 lg:space-y-20">
           <div className="mt-10">
             <p className="text-gray-400 md:text-2xl">Hola Soy</p>
           </div>
@@ -43,13 +43,13 @@ function App() {
 
               </Player>
             </div>
-            <h1 className="text-white text-3xl sm:text-6xl flex md:my-2 lg:text-7xl lg:my-6">Christian A. Tinoco</h1>
+            <h1 className="text-white text-4xl sm:text-6xl flex md:my-2 lg:text-7xl lg:my-6">Christian A. Tinoco</h1>
 
           </div>
 
 
 
-          <h2 className="text-gray-400 text-2xl flex  md:my-2 md:text-5xl my-1 " >UX Designer & Frontend Developer</h2>
+          <h2 className="text-gray-400 text-2xl flex  md:my-2 md:text-5xl my-1 " >Web Full Stack Developer</h2>
 
           <a href="https://drive.google.com/file/d/1tE15Dq2cxpfcKaPNYqTlthYCUJJfsCR6/view?usp=sharing"  className=''>
           <button className="outline-[#1bd8b5] outline-1 outline p-1 md:p-2 my-2 w-1/2 rounded-xl cursor-pointer 

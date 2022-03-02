@@ -26,20 +26,20 @@ export const Numbers = () => {
         <div className="flex sm:flex-row w-full items-center justify-around sm:space-x-2 md:my-9 ">
         
 
-              <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-3xl lg:text-5xl">
+              <div className='flex space-x-2'>
+                <animated.span className="text-[#1bd8b5] text-4xl lg:text-6xl">
                   {numbertwo.to(n => n.toFixed(0))}
                 </animated.span>
-                <div className='text-gray-400 text-xl lg:text-5xl'>
+                <div className='text-gray-400 text-2xl lg:text-5xl'>
                   <h2>Años de Experiencia</h2>
                 </div>
               </div>
 
-              <div className='flex'>
-                <animated.span className="text-[#1bd8b5] text-3xl lg:text-5xl">
+              <div className='flex space-x-2'>
+                <animated.span className="text-[#1bd8b5] text-4xl lg:text-6xl">
                   {numberthree.to(n => n.toFixed(0))}
                 </animated.span>
-                <div className='text-gray-400 text-xl lg:text-5xl'>
+                <div className='text-gray-400 text-2xl lg:text-5xl'>
                   <h2>Proyectos Completados</h2>
                 </div>
               </div>
